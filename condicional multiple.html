@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+       <title> condicional multiple </title>
+       
+    </head>
+    <body>
+    </body>
+    <script> 
+    do{
+        var nota=prompt("introduce tu nota");
+        if ( Number(nota) == nota){
+
+        if (nota > 0 && nota <= 10){
+              if (nota < 3) {
+                    alert("muy deficiente");
+                }
+                else if (nota < 5) {
+                    alert("muy insuficiente");
+                }
+                else if (nota < 6) {
+                alert("muy suficiente");
+                }
+                else if (nota < 7) {
+                alert("muy bien");
+                }
+                else if (nota < 9) {
+                alert("muy notable");
+                }
+                else if (nota >= 9) {
+                alert("sobresaliente");
+                }
+                    
+              
+            }
+                else {
+                 alert("nota erronea");
+            }
+             }
+            else {
+                if (nota != undefined){
+                        alert(" introduce un numero valido");
+                
+
+            }
+        }
+
+    }
+    while (nota != undefined);
+
+    </script>
+</html>
